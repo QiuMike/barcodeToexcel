@@ -1,0 +1,20 @@
+<html>
+<head>
+  <title>Excel条形码自动转换</title>
+</head>
+<body>
+    <h1>Excel条形码在线自动转换工具</h1>
+    <h2>该工具是满足体育测试、或者其他测试时学号或者其他号码生成二维码，并自动嵌入到对应的列中，支持xlsx格式</h2>
+    <h2>信息来源列： 是指要生成条形码的源数据，比如学号或者电话号码所在列，根据实际情况选A~Z列号</h2>
+    <h2>条形码存储列： 是指要生成条形码后存储的列，根据实际情况选A~Z列号</h2>
+    <img src="static/example.png" />
+    <h2>如有问题联系作者: qdy220091330@gmail.com</h2>
+    <h2>QQ: 418858404</h2>
+    <form action="http://121.4.243.95:3213/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="excelfile"  />
+        信息来源列:<input type="text" name="src"/>
+        条形码存储列:<input type="text" name="dest"/>
+        <input type="submit" value="提交" />
+    </form>
+</body>
+</html>
