@@ -2,6 +2,23 @@ barcodeToexcel is a tool to read info from excel and trans to barcode and store 
 
 This is useful for get the barcode in batch
 
+to run this application, pls install some dependency packages:
+
+ubuntu for example:
+
+sudo apt install python3-pip
+sudo apt install libjpeg-dev libxft-dev libpng-dev
+pip install flask
+pip install python-barcode
+pip install pillow
+pip install openpyxli
+
+
+after that, you could run ./app.py
+
+and you could access the app using http://serverip:3213 with your browser
+
+serverip is the machine's IP where you run app.py
 
 Any question, pls contact:
 
